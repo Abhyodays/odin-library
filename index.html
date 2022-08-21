@@ -23,14 +23,15 @@
     <div class="form-container">
       <form action="" class="book-form">
         <label for="name">Book</label>
-        <input id="name" type="text">
+        <input id="name" type="text" required>
         <label for="author">Author</label>
-        <input id="author" type="text">
+        <input id="author" type="text" required>
         <label for="pages">Pages</label>
-        <input id="pages" type="text">
+        <input id="pages" type="number" required>
         <label for="read-status">Read it already?</label>
         <input type="checkbox" name="readStatus" id="read-status">
         <button class="btn" type="submit">Add book</button>
+        <button class="btn" type="reset">Clear</button>
       </form>
     </div>
     <div class="book-container">
