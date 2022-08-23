@@ -73,4 +73,14 @@ input{
   background-color: aqua;
   padding: 20px;
   border-radius: 10px;
+  margin-top: 10px;
+}
+
+.btn-delete{
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 500;
 }
